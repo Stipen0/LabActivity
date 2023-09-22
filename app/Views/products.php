@@ -37,7 +37,7 @@
 <fieldset>
         <legend><h1>Product Information</h1></legend>
     <form action="/save" method="post">
-            <input type="hidden" name= "id" value="<?= isset($pro['id']) ? $pro['id'] : '' ?>"   >
+            <input type="hidden" name= "id" value="<?= isset($pro['id']) ? $pro['id'] : '' ?>">
             
             <label>Product Name</label>
             <input type="text" name= "ProductName" placeholder="Name" value="<?= isset($pro['ProductName']) ? $pro['ProductName'] : '' ?>"   >
